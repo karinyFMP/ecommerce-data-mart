@@ -1,0 +1,301 @@
+id_produto,nome_produto,id_categoria,preco_base
+1,Toalha de Banho X,3,1413.13
+2,Camiseta Básica Premium,2,276.74
+3,Mochila Max,2,320.43
+4,Mochila Esportiva Premium,5,56.46
+5,Perfume Premium,4,125.44
+6,Jogo de Cama X,3,1398.53
+7,Ventilador Max,3,682.63
+8,Mochila Esportiva Premium,5,1328.23
+9,Smartwatch Premium,1,3843.73
+10,Vestido Casual Pro,2,250.14
+11,Monitor X,1,3736.36
+12,Cafeteira Plus,3,1012.98
+13,Smartphone Premium,1,4914.23
+14,Ventilador Plus,3,1455.96
+15,Teclado Mecânico X,1,4494.53
+16,Smartphone Max,1,1793.19
+17,Teclado Mecânico Pro,1,304.39
+18,Tênis Corrida Premium,5,239.23
+19,Ventilador Premium,3,1434.9
+20,Ventilador Essencial,3,1342.18
+21,Mochila Esportiva Max,5,2285.9
+22,Shorts X,2,239.82
+23,Camiseta Básica Max,2,173.53
+24,Smartphone Pro,1,4821.67
+25,Faixa Elástica Premium,5,1941.27
+26,Creme Corporal Pro,4,331.16
+27,Bicicleta Premium,5,1651.54
+28,Escova Secadora Max,4,34.55
+29,Mochila Essencial,2,128.81
+30,Tênis Esportivo X,2,101.72
+31,Toalha de Banho Essencial,3,1060.38
+32,Jogo de Cama Premium,3,44.06
+33,Escova Secadora Pro,4,270.39
+34,Shorts Max,2,32.98
+35,Shorts Premium,2,56.97
+36,Blusa Social Max,2,124.39
+37,Condicionador Max,4,54.9
+38,Tênis Corrida Plus,5,1756.79
+39,Relógio X,2,318.27
+40,Tênis Esportivo Max,2,152.48
+41,Notebook Premium,1,3707.17
+42,Carregador Portátil Premium,1,3244.3
+43,Perfume Max,4,100.61
+44,Garrafa Térmica Pro,5,1543.55
+45,Camiseta Básica Plus,2,357.97
+46,Notebook Pro,1,2011.5
+47,Vestido Casual Essencial,2,373.18
+48,Aspirador Pro,3,527.76
+49,Garrafa Térmica Essencial,5,1367.16
+50,Tapete Yoga Premium,5,533.7
+51,Corda de Pular Max,5,523.27
+52,Teclado Mecânico Plus,1,2141.87
+53,Camiseta Básica X,2,82.34
+54,Aspirador Essencial,3,312.35
+55,Mesa Dobrável Pro,3,1339.3
+56,Tapete Yoga Premium,5,2724.31
+57,Notebook Max,1,4221.92
+58,Boné Premium,2,96.95
+59,Condicionador Premium,4,233.52
+60,Tapete Yoga Premium,5,1073.9
+61,Halter Essencial,5,1729.23
+62,Perfume X,4,140.79
+63,Tablet Premium,1,3882.19
+64,Corda de Pular Plus,5,1618.2
+65,Cadeira Escritório Essencial,3,159.07
+66,Mochila Esportiva Essencial,5,2255.13
+67,Condicionador X,4,247.94
+68,Óleo Capilar Essencial,4,34.67
+69,Monitor Plus,1,2435.45
+70,Bola de Futebol Premium,5,1653.78
+71,Creme Corporal Plus,4,187.81
+72,Luvas Academia Plus,5,2416.02
+73,Aspirador Max,3,1304.7
+74,Caixa de Som Plus,1,907.16
+75,Condicionador Premium,4,37.81
+76,Bola de Futebol Essencial,5,901.27
+77,Tênis Esportivo Plus,2,275.12
+78,Camiseta Básica Max,2,62.81
+79,Mesa Dobrável Max,3,996.06
+80,Boné X,2,70.59
+81,Kit Maquiagem Essencial,4,218.81
+82,Camiseta Básica X,2,76.82
+83,Fone Bluetooth Premium,1,3199.5
+84,Mouse Gamer X,1,3503.72
+85,Vestido Casual Plus,2,295.27
+86,Kit Maquiagem Plus,4,249.5
+87,Teclado Mecânico Max,1,3611.83
+88,Fone Bluetooth Essencial,1,540.2
+89,Cafeteira Pro,3,410.06
+90,Camiseta Básica X,2,394.21
+91,Monitor X,1,3981.79
+92,Mochila Pro,2,200.05
+93,Creme Corporal Premium,4,221.66
+94,Vestido Casual Premium,2,283.0
+95,Relógio Premium,2,183.81
+96,Smartwatch Max,1,1940.35
+97,Bicicleta Plus,5,1756.57
+98,Bola de Futebol Premium,5,2833.73
+99,Mouse Gamer Plus,1,4223.36
+100,Tênis Corrida Premium,5,1869.76
+101,Condicionador Plus,4,207.27
+102,Calça Jeans Pro,2,210.13
+103,Bicicleta Max,5,1232.44
+104,Luminária Pro,3,712.34
+105,Tablet Plus,1,3526.1
+106,Calça Jeans Essencial,2,219.49
+107,Kit Maquiagem Max,4,39.95
+108,Tênis Corrida Max,5,919.0
+109,Smartwatch Pro,1,2006.26
+110,Jaqueta Essencial,2,314.98
+111,Relógio Pro,2,157.2
+112,Ventilador Pro,3,284.22
+113,Vestido Casual Plus,2,172.58
+114,Shampoo Premium,4,117.52
+115,Jaqueta Plus,2,320.76
+116,Shorts X,2,235.28
+117,Toalha de Banho X,3,260.91
+118,Garrafa Térmica X,5,2661.7
+119,Caixa de Som X,1,2505.52
+120,Faixa Elástica Premium,5,2226.22
+121,Condicionador X,4,99.23
+122,Liquidificador X,3,917.15
+123,Protetor Solar Plus,4,86.33
+124,Jogo de Cama Plus,3,1091.44
+125,Mesa Dobrável Plus,3,1337.89
+126,Monitor Essencial,1,1240.38
+127,Jaqueta Plus,2,381.26
+128,Teclado Mecânico Premium,1,467.13
+129,Cadeira Escritório Pro,3,632.27
+130,Toalha de Banho Max,3,1300.81
+131,Creme Corporal X,4,108.63
+132,Mesa Dobrável Pro,3,896.77
+133,Aspirador Plus,3,566.32
+134,Blusa Social Max,2,238.8
+135,Luminária Pro,3,1399.54
+136,Garrafa Térmica Pro,5,2887.77
+137,Tablet Plus,1,4537.25
+138,Calça Jeans Plus,2,157.01
+139,Cafeteira Essencial,3,1058.7
+140,Carregador Portátil Max,1,4632.44
+141,Tênis Corrida Essencial,5,285.43
+142,Panela Elétrica Pro,3,910.08
+143,Aspirador Essencial,3,596.68
+144,Mesa Dobrável Plus,3,204.75
+145,Camiseta Básica Pro,2,351.94
+146,Panela Elétrica Plus,3,577.2
+147,Halter Max,5,565.24
+148,Mouse Gamer Premium,1,4988.67
+149,Cadeira Escritório Essencial,3,325.3
+150,Blusa Social Premium,2,141.37
+151,Toalha de Banho Plus,3,1088.86
+152,Smartwatch Essencial,1,2110.23
+153,Hidratante Premium,4,337.15
+154,Smartphone Essencial,1,3256.43
+155,Smartwatch Essencial,1,4124.0
+156,Vestido Casual Premium,2,59.38
+157,Luvas Academia Premium,5,2750.55
+158,Tênis Corrida Max,5,490.34
+159,Toalha de Banho X,3,1348.54
+160,Óleo Capilar Pro,4,105.72
+161,Perfume Premium,4,184.08
+162,Camiseta Básica X,2,225.74
+163,Panela Elétrica Plus,3,1361.21
+164,Escova Secadora Plus,4,210.51
+165,Kit Maquiagem Pro,4,82.14
+166,Perfume Premium,4,111.96
+167,Smartphone X,1,3525.31
+168,Mochila Essencial,2,53.27
+169,Aspirador X,3,797.95
+170,Smartphone Premium,1,4610.21
+171,Condicionador X,4,62.25
+172,Panela Elétrica Max,3,716.15
+173,Calça Jeans Pro,2,39.79
+174,Jogo de Cama Essencial,3,1050.76
+175,Teclado Mecânico Pro,1,2683.11
+176,Smartwatch Plus,1,4549.49
+177,Calça Jeans Plus,2,169.89
+178,Aspirador X,3,265.1
+179,Condicionador X,4,28.84
+180,Relógio X,2,263.53
+181,Hidratante Max,4,62.18
+182,Ventilador Max,3,1247.78
+183,Tênis Esportivo Plus,2,92.52
+184,Hidratante X,4,223.26
+185,Faixa Elástica Essencial,5,543.56
+186,Aspirador Pro,3,1049.14
+187,Shorts Plus,2,77.8
+188,Sabonete Facial Premium,4,187.4
+189,Smartwatch Pro,1,530.86
+190,Caixa de Som Pro,1,304.16
+191,Blusa Social Essencial,2,214.2
+192,Caixa de Som Plus,1,4162.44
+193,Blusa Social Premium,2,66.51
+194,Shampoo Plus,4,150.82
+195,Cadeira Escritório Plus,3,1343.7
+196,Garrafa Térmica X,5,2886.68
+197,Smartwatch X,1,3985.28
+198,Protetor Solar Essencial,4,303.64
+199,Escova Secadora Plus,4,127.02
+200,Panela Elétrica Plus,3,346.34
+201,Vestido Casual Plus,2,382.35
+202,Bicicleta X,5,340.74
+203,Tênis Corrida Max,5,2991.49
+204,Cadeira Escritório X,3,1292.77
+205,Tapete Yoga X,5,2451.67
+206,Vestido Casual X,2,384.59
+207,Perfume Pro,4,80.4
+208,Mochila Esportiva Plus,5,1130.48
+209,Tablet Plus,1,4178.93
+210,Hidratante Premium,4,302.18
+211,Caixa de Som Premium,1,1416.06
+212,Protetor Solar Premium,4,293.13
+213,Smartwatch X,1,1631.06
+214,Tênis Corrida Premium,5,1968.27
+215,Panela Elétrica Premium,3,1337.18
+216,Teclado Mecânico Pro,1,938.61
+217,Caixa de Som Max,1,3346.73
+218,Relógio X,2,205.2
+219,Luminária Premium,3,498.19
+220,Mesa Dobrável Premium,3,567.84
+221,Ventilador Premium,3,1206.95
+222,Monitor Premium,1,2186.35
+223,Liquidificador Premium,3,866.69
+224,Aspirador Pro,3,436.56
+225,Halter Essencial,5,2169.67
+226,Bola de Futebol Essencial,5,980.1
+227,Luvas Academia Max,5,2419.44
+228,Smartwatch Premium,1,4071.12
+229,Mouse Gamer Plus,1,2218.22
+230,Camiseta Básica Premium,2,260.42
+231,Shampoo Plus,4,260.56
+232,Fone Bluetooth Max,1,440.59
+233,Relógio Plus,2,308.2
+234,Creme Corporal Pro,4,172.71
+235,Luvas Academia Pro,5,133.1
+236,Luvas Academia Plus,5,245.73
+237,Escova Secadora Pro,4,96.34
+238,Tapete Yoga Plus,5,1327.6
+239,Perfume Pro,4,336.52
+240,Garrafa Térmica Essencial,5,1874.37
+241,Corda de Pular Max,5,730.76
+242,Relógio X,2,286.4
+243,Calça Jeans Essencial,2,63.93
+244,Kit Maquiagem Max,4,82.16
+245,Faixa Elástica X,5,1021.24
+246,Calça Jeans Plus,2,46.9
+247,Carregador Portátil Premium,1,1811.71
+248,Monitor Pro,1,4053.17
+249,Toalha de Banho Essencial,3,974.52
+250,Mesa Dobrável Premium,3,1078.01
+251,Fone Bluetooth Pro,1,4843.39
+252,Sabonete Facial Max,4,122.03
+253,Escova Secadora Pro,4,118.26
+254,Creme Corporal Pro,4,324.71
+255,Tablet Plus,1,1977.43
+256,Luminária X,3,1486.29
+257,Aspirador Premium,3,73.66
+258,Shorts Max,2,288.64
+259,Hidratante Premium,4,214.32
+260,Protetor Solar Essencial,4,160.79
+261,Mochila Pro,2,59.26
+262,Mochila Esportiva Plus,5,1718.7
+263,Hidratante Max,4,87.94
+264,Ventilador Pro,3,1089.76
+265,Shorts Max,2,70.75
+266,Tapete Yoga Pro,5,1255.24
+267,Blusa Social Max,2,116.87
+268,Monitor Essencial,1,1506.71
+269,Faixa Elástica Essencial,5,2525.48
+270,Ventilador Pro,3,549.07
+271,Luminária X,3,674.55
+272,Aspirador Max,3,1317.0
+273,Jogo de Cama Max,3,1075.19
+274,Mouse Gamer Essencial,1,676.86
+275,Faixa Elástica Essencial,5,752.65
+276,Bola de Futebol X,5,2835.63
+277,Toalha de Banho Essencial,3,698.3
+278,Relógio Max,2,354.52
+279,Cafeteira Essencial,3,1148.24
+280,Tapete Yoga Plus,5,692.97
+281,Mochila Esportiva Essencial,5,1274.88
+282,Luvas Academia X,5,2807.16
+283,Garrafa Térmica X,5,2317.35
+284,Faixa Elástica Max,5,321.78
+285,Calça Jeans Premium,2,399.15
+286,Luvas Academia Plus,5,207.08
+287,Calça Jeans Pro,2,311.82
+288,Kit Maquiagem Max,4,316.75
+289,Mochila Esportiva Plus,5,879.02
+290,Kit Maquiagem Max,4,175.96
+291,Tapete Yoga Plus,5,135.94
+292,Smartphone Max,1,1448.44
+293,Protetor Solar Pro,4,326.54
+294,Relógio Plus,2,239.63
+295,Fone Bluetooth X,1,4383.24
+296,Fone Bluetooth Premium,1,1083.88
+297,Kit Maquiagem Pro,4,305.23
+298,Faixa Elástica Pro,5,591.19
+299,Mochila Esportiva X,5,2040.68
+300,Perfume Essencial,4,330.17

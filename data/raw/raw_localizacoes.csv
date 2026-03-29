@@ -1,0 +1,271 @@
+id_localizacao,cidade,estado,regiao
+1,Rio Branco,AC,Norte
+2,Cruzeiro do Sul,AC,Norte
+3,Sena Madureira,AC,Norte
+4,Tarauacá,AC,Norte
+5,Feijó,AC,Norte
+6,Brasileia,AC,Norte
+7,Xapuri,AC,Norte
+8,Plácido de Castro,AC,Norte
+9,Mâncio Lima,AC,Norte
+10,Senador Guiomard,AC,Norte
+11,Maceió,AL,Nordeste
+12,Arapiraca,AL,Nordeste
+13,Palmeira dos Índios,AL,Nordeste
+14,Rio Largo,AL,Nordeste
+15,União dos Palmares,AL,Nordeste
+16,Penedo,AL,Nordeste
+17,São Miguel dos Campos,AL,Nordeste
+18,Coruripe,AL,Nordeste
+19,Delmiro Gouveia,AL,Nordeste
+20,Marechal Deodoro,AL,Nordeste
+21,Macapá,AP,Norte
+22,Santana,AP,Norte
+23,Laranjal do Jari,AP,Norte
+24,Oiapoque,AP,Norte
+25,Mazagão,AP,Norte
+26,Porto Grande,AP,Norte
+27,Tartarugalzinho,AP,Norte
+28,Pedra Branca do Amapari,AP,Norte
+29,Vitória do Jari,AP,Norte
+30,Amapá,AP,Norte
+31,Manaus,AM,Norte
+32,Parintins,AM,Norte
+33,Itacoatiara,AM,Norte
+34,Manacapuru,AM,Norte
+35,Coari,AM,Norte
+36,Tefé,AM,Norte
+37,Tabatinga,AM,Norte
+38,Maués,AM,Norte
+39,Humaitá,AM,Norte
+40,Iranduba,AM,Norte
+41,Salvador,BA,Nordeste
+42,Feira de Santana,BA,Nordeste
+43,Vitória da Conquista,BA,Nordeste
+44,Camaçari,BA,Nordeste
+45,Itabuna,BA,Nordeste
+46,Juazeiro,BA,Nordeste
+47,Lauro de Freitas,BA,Nordeste
+48,Ilhéus,BA,Nordeste
+49,Jequié,BA,Nordeste
+50,Barreiras,BA,Nordeste
+51,Fortaleza,CE,Nordeste
+52,Caucaia,CE,Nordeste
+53,Juazeiro do Norte,CE,Nordeste
+54,Maracanaú,CE,Nordeste
+55,Sobral,CE,Nordeste
+56,Crato,CE,Nordeste
+57,Itapipoca,CE,Nordeste
+58,Maranguape,CE,Nordeste
+59,Iguatu,CE,Nordeste
+60,Quixadá,CE,Nordeste
+61,Brasília,DF,Centro-Oeste
+62,Taguatinga,DF,Centro-Oeste
+63,Ceilândia,DF,Centro-Oeste
+64,Samambaia,DF,Centro-Oeste
+65,Planaltina,DF,Centro-Oeste
+66,Gama,DF,Centro-Oeste
+67,Sobradinho,DF,Centro-Oeste
+68,Guará,DF,Centro-Oeste
+69,Recanto das Emas,DF,Centro-Oeste
+70,Santa Maria,DF,Centro-Oeste
+71,Vitória,ES,Sudeste
+72,Vila Velha,ES,Sudeste
+73,Serra,ES,Sudeste
+74,Cariacica,ES,Sudeste
+75,Linhares,ES,Sudeste
+76,Colatina,ES,Sudeste
+77,Guarapari,ES,Sudeste
+78,São Mateus,ES,Sudeste
+79,Aracruz,ES,Sudeste
+80,Cachoeiro de Itapemirim,ES,Sudeste
+81,Goiânia,GO,Centro-Oeste
+82,Aparecida de Goiânia,GO,Centro-Oeste
+83,Anápolis,GO,Centro-Oeste
+84,Rio Verde,GO,Centro-Oeste
+85,Luziânia,GO,Centro-Oeste
+86,Águas Lindas de Goiás,GO,Centro-Oeste
+87,Valparaíso de Goiás,GO,Centro-Oeste
+88,Trindade,GO,Centro-Oeste
+89,Formosa,GO,Centro-Oeste
+90,Senador Canedo,GO,Centro-Oeste
+91,São Luís,MA,Nordeste
+92,Imperatriz,MA,Nordeste
+93,Caxias,MA,Nordeste
+94,Timon,MA,Nordeste
+95,Codó,MA,Nordeste
+96,Paço do Lumiar,MA,Nordeste
+97,Açailândia,MA,Nordeste
+98,Bacabal,MA,Nordeste
+99,Balsas,MA,Nordeste
+100,Santa Inês,MA,Nordeste
+101,Belo Horizonte,MG,Sudeste
+102,Uberlândia,MG,Sudeste
+103,Contagem,MG,Sudeste
+104,Juiz de Fora,MG,Sudeste
+105,Betim,MG,Sudeste
+106,Montes Claros,MG,Sudeste
+107,Uberaba,MG,Sudeste
+108,Governador Valadares,MG,Sudeste
+109,Ipatinga,MG,Sudeste
+110,Sete Lagoas,MG,Sudeste
+111,Campo Grande,MS,Centro-Oeste
+112,Dourados,MS,Centro-Oeste
+113,Três Lagoas,MS,Centro-Oeste
+114,Corumbá,MS,Centro-Oeste
+115,Ponta Porã,MS,Centro-Oeste
+116,Naviraí,MS,Centro-Oeste
+117,Nova Andradina,MS,Centro-Oeste
+118,Sidrolândia,MS,Centro-Oeste
+119,Aquidauana,MS,Centro-Oeste
+120,Paranaíba,MS,Centro-Oeste
+121,Cuiabá,MT,Centro-Oeste
+122,Várzea Grande,MT,Centro-Oeste
+123,Rondonópolis,MT,Centro-Oeste
+124,Sinop,MT,Centro-Oeste
+125,Tangará da Serra,MT,Centro-Oeste
+126,Sorriso,MT,Centro-Oeste
+127,Cáceres,MT,Centro-Oeste
+128,Lucas do Rio Verde,MT,Centro-Oeste
+129,Primavera do Leste,MT,Centro-Oeste
+130,Barra do Garças,MT,Centro-Oeste
+131,Belém,PA,Norte
+132,Ananindeua,PA,Norte
+133,Santarém,PA,Norte
+134,Marabá,PA,Norte
+135,Parauapebas,PA,Norte
+136,Castanhal,PA,Norte
+137,Abaetetuba,PA,Norte
+138,Cametá,PA,Norte
+139,Bragança,PA,Norte
+140,Altamira,PA,Norte
+141,João Pessoa,PB,Nordeste
+142,Campina Grande,PB,Nordeste
+143,Santa Rita,PB,Nordeste
+144,Patos,PB,Nordeste
+145,Bayeux,PB,Nordeste
+146,Sousa,PB,Nordeste
+147,Cajazeiras,PB,Nordeste
+148,Cabedelo,PB,Nordeste
+149,Guarabira,PB,Nordeste
+150,Sapé,PB,Nordeste
+151,Recife,PE,Nordeste
+152,Jaboatão dos Guararapes,PE,Nordeste
+153,Olinda,PE,Nordeste
+154,Caruaru,PE,Nordeste
+155,Petrolina,PE,Nordeste
+156,Paulista,PE,Nordeste
+157,Cabo de Santo Agostinho,PE,Nordeste
+158,Camaragibe,PE,Nordeste
+159,Garanhuns,PE,Nordeste
+160,Vitória de Santo Antão,PE,Nordeste
+161,Teresina,PI,Nordeste
+162,Parnaíba,PI,Nordeste
+163,Picos,PI,Nordeste
+164,Piripiri,PI,Nordeste
+165,Floriano,PI,Nordeste
+166,Campo Maior,PI,Nordeste
+167,Barras,PI,Nordeste
+168,União,PI,Nordeste
+169,Altos,PI,Nordeste
+170,Pedro II,PI,Nordeste
+171,Curitiba,PR,Sul
+172,Londrina,PR,Sul
+173,Maringá,PR,Sul
+174,Ponta Grossa,PR,Sul
+175,Cascavel,PR,Sul
+176,São José dos Pinhais,PR,Sul
+177,Foz do Iguaçu,PR,Sul
+178,Colombo,PR,Sul
+179,Guarapuava,PR,Sul
+180,Paranaguá,PR,Sul
+181,Rio de Janeiro,RJ,Sudeste
+182,São Gonçalo,RJ,Sudeste
+183,Duque de Caxias,RJ,Sudeste
+184,Nova Iguaçu,RJ,Sudeste
+185,Niterói,RJ,Sudeste
+186,Belford Roxo,RJ,Sudeste
+187,Campos dos Goytacazes,RJ,Sudeste
+188,Petrópolis,RJ,Sudeste
+189,Volta Redonda,RJ,Sudeste
+190,Macaé,RJ,Sudeste
+191,Natal,RN,Nordeste
+192,Mossoró,RN,Nordeste
+193,Parnamirim,RN,Nordeste
+194,São Gonçalo do Amarante,RN,Nordeste
+195,Macaíba,RN,Nordeste
+196,Ceará-Mirim,RN,Nordeste
+197,Caicó,RN,Nordeste
+198,Assu,RN,Nordeste
+199,Currais Novos,RN,Nordeste
+200,Nova Cruz,RN,Nordeste
+201,Porto Velho,RO,Norte
+202,Ji-Paraná,RO,Norte
+203,Ariquemes,RO,Norte
+204,Vilhena,RO,Norte
+205,Cacoal,RO,Norte
+206,Rolim de Moura,RO,Norte
+207,Jaru,RO,Norte
+208,Guajará-Mirim,RO,Norte
+209,Machadinho d'Oeste,RO,Norte
+210,Ouro Preto do Oeste,RO,Norte
+211,Boa Vista,RR,Norte
+212,Rorainópolis,RR,Norte
+213,Caracaraí,RR,Norte
+214,Alto Alegre,RR,Norte
+215,Mucajaí,RR,Norte
+216,Bonfim,RR,Norte
+217,Cantá,RR,Norte
+218,Pacaraima,RR,Norte
+219,Normandia,RR,Norte
+220,Iracema,RR,Norte
+221,Porto Alegre,RS,Sul
+222,Caxias do Sul,RS,Sul
+223,Pelotas,RS,Sul
+224,Canoas,RS,Sul
+225,Santa Maria,RS,Sul
+226,Gravataí,RS,Sul
+227,Viamão,RS,Sul
+228,Novo Hamburgo,RS,Sul
+229,São Leopoldo,RS,Sul
+230,Passo Fundo,RS,Sul
+231,Florianópolis,SC,Sul
+232,Joinville,SC,Sul
+233,Blumenau,SC,Sul
+234,São José,SC,Sul
+235,Criciúma,SC,Sul
+236,Chapecó,SC,Sul
+237,Itajaí,SC,Sul
+238,Jaraguá do Sul,SC,Sul
+239,Lages,SC,Sul
+240,Balneário Camboriú,SC,Sul
+241,Aracaju,SE,Nordeste
+242,Nossa Senhora do Socorro,SE,Nordeste
+243,Lagarto,SE,Nordeste
+244,Itabaiana,SE,Nordeste
+245,São Cristóvão,SE,Nordeste
+246,Estância,SE,Nordeste
+247,Tobias Barreto,SE,Nordeste
+248,Simão Dias,SE,Nordeste
+249,Nossa Senhora da Glória,SE,Nordeste
+250,Capela,SE,Nordeste
+251,São Paulo,SP,Sudeste
+252,Campinas,SP,Sudeste
+253,Guarulhos,SP,Sudeste
+254,São Bernardo do Campo,SP,Sudeste
+255,Santo André,SP,Sudeste
+256,Osasco,SP,Sudeste
+257,Sorocaba,SP,Sudeste
+258,Ribeirão Preto,SP,Sudeste
+259,São José dos Campos,SP,Sudeste
+260,Santos,SP,Sudeste
+261,Palmas,TO,Norte
+262,Araguaína,TO,Norte
+263,Gurupi,TO,Norte
+264,Porto Nacional,TO,Norte
+265,Paraíso do Tocantins,TO,Norte
+266,Colinas do Tocantins,TO,Norte
+267,Guaraí,TO,Norte
+268,Tocantinópolis,TO,Norte
+269,Dianópolis,TO,Norte
+270,Miracema do Tocantins,TO,Norte

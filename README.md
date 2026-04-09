@@ -50,43 +50,52 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 ### Passo 1: Download do Projeto e Instalação de Dependências
 Abra o terminal do VS Code, clone o projeto e instale a biblioteca do Pandas:
+
+```bash
 # Clone o repositório
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone [https://github.com/karinyFMP/ecommerce-data-mart.git](https://github.com/karinyFMP/ecommerce-data-mart.git)
 
 # Acesse a pasta do projeto
-cd <NOME_DA_PASTA_DO_PROJETO>
+cd ecommerce-data-mart
 
 # Instale as dependências necessárias
 pip install pandas
+```
 
-## Passo 2: Executar o Pipeline (ETL)
+### Passo 2: Executar o Pipeline (ETL)
 Com o terminal aberto na raiz do projeto, execute o script principal. Ele fará a leitura dos CSVs brutos, aplicará as regras de negócio e criará o banco de dados do zero.
 
+```bash
 python pipeline.py
+```
 Se a execução for bem-sucedida, o arquivo ecommerce.db aparecerá na pasta do projeto.
 
-## Passo 3: Validar os Dados no VS Code (Via Extensão)
+### Passo 3: Validar os Dados no VS Code (Via Extensão)
 Para provar que o banco foi populado corretamente sem sair do editor de código:
 
-Pressione Ctrl + Shift + P (ou Cmd + Shift + P no Mac) para abrir a Paleta de Comandos.
+1. Pressione Ctrl + Shift + P (ou Cmd + Shift + P no Mac) para abrir a Paleta de Comandos.
 
-Digite SQLite: Open Database e pressione Enter.
+2. Digite SQLite: Open Database e pressione Enter.
 
-Selecione o arquivo recém-criado: ecommerce.db.
+3. Selecione o arquivo recém-criado: ecommerce.db.
 
-Observe a aba lateral inferior esquerda (SQLite Explorer). Clique nela para expandir e visualizar as tabelas (fato_vendas, dim_cliente, etc.). Clique no botão de "Play" ao lado de uma tabela para ver os dados nela contidos.
+4. Observe a aba lateral inferior esquerda (SQLite Explorer). Clique nela para expandir e visualizar as tabelas (fato_vendas, dim_cliente, etc.). Clique no botão de "Play" ao lado de uma tabela para ver os dados nela contidos.
 
-Método Alternativo (Terminal CLI): Caso prefira validar usando comandos SQL via terminal Windows (PowerShell), aponte para o executável do SQLite informando o caminho do banco:
-
+5. Método Alternativo (Terminal CLI): Caso prefira validar usando comandos SQL via terminal Windows (PowerShell), aponte para o executável do SQLite informando o caminho do banco:
+```bash
 PowerShell
 & "D:\Caminho\Para\Seu\sqlite3.exe" ecommerce.db
-Passo 4: Restaurar o Banco de Dados via Dump (Backup)
+```
+
+### Passo 4: Restaurar o Banco de Dados via Dump (Backup)
 Caso ocorra algum problema na execução do Python e você deseje apenas testar as queries SQL, disponibilizamos um arquivo de Dump com os dados já populados:
 
+```bash
 sqlite3 novo_banco.db < dump_ecommerce.sql
+```
 
-## 5. Perguntas de Negócio e Insights
-Nosso Data Mart nos permitiu responder a perguntas cruciais para o negócio. As queries SQL completas e documentadas estão no arquivo perguntas_negocio.sql.
+### 5. Perguntas de Negócio e Insights
+Nosso Data Mart nos permitiu responder a perguntas cruciais para o negócio. As queries SQL completas e documentadas estão no arquivo query.sql.
 
 Qual é o faturamento total e a quantidade de itens vendidos por categoria de produto?
 
@@ -98,8 +107,8 @@ Qual a evolução mensal das vendas e o impacto financeiro dos descontos ao long
 
 Qual a preferência de forma de pagamento de acordo com o Tipo de Cliente?
 
-## 6. Dashboard (Power BI)
-O arquivo Dashboard_Ecommerce.pbix contém a camada visual do projeto, conectada diretamente ao banco ecommerce.db via ODBC / Script Python.
+### 6. Dashboard (Power BI)
+O arquivo E-Commerce.pbix contém a camada visual do projeto, conectada diretamente ao banco ecommerce.db via ODBC / Script Python.
 
 Principais Visualizações:
 

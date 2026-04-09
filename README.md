@@ -49,7 +49,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 * **VS Code** com a extensão **SQLite** instalada (pesquise por `alexcvzz.vscode-sqlite` nas extensões).
 * **Power BI Desktop** (para visualizar o dashboard).
 
-###Estrutura de Pastas
+### Estrutura de Pastas
 O código utiliza caminhos relativos (os.path.abspath), então a organização dos arquivos é fundamental. Certifique-se de que seu projeto siga este layout:
 ```bash
 ecommerce-data-mart/

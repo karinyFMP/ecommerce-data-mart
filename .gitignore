@@ -1,0 +1,24 @@
+# Ambientes Virtuais Python
+venv/
+env/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ficheiros de Base de Dados (gerados localmente)
+data/db/*.db
+*.sqlite
+*.sqlite3
+*.db
+
+# Ficheiros de Dados Brutos (gerados por script)
+data/raw/*.csv
+*.csv
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db

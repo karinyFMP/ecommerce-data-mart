@@ -11,7 +11,7 @@ fake = Faker("pt_BR")
 random.seed(42)
 Faker.seed(42)
 
-OUTPUT_DIR = "data/raw"
+OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 NUM_CLIENTES = 5000

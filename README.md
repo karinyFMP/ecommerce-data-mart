@@ -72,8 +72,8 @@ ecommerce-data-mart/
 └── requirements.txt         <-- Lista de dependências (ex: pandas, pyarrow)
 ```
 
-### Passo 1: Download do Projeto
-Abra o terminal do VS Code e clone o projetos:
+### Passo 1: Download do Projeto e Instalação de Dependências
+Abra o terminal do VS Code, clone o projetos e instale as dependências:
 
 ```bash
 # Clone o repositório
@@ -81,6 +81,9 @@ git clone [https://github.com/karinyFMP/ecommerce-data-mart.git](https://github.
 
 # Acesse a pasta do projeto
 cd ecommerce-data-mart
+
+# Instale as dependências necessárias
+pip install -r requirements.txt
 ```
 
 ### Passo 2: Executar o Pipeline (ETL)

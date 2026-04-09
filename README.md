@@ -72,8 +72,8 @@ ecommerce-data-mart/
 └── requirements.txt         <-- Lista de dependências (ex: pandas, pyarrow)
 ```
 
-### Passo 1: Download do Projeto e Instalação de Dependências
-Abra o terminal do VS Code, clone o projeto e instale a biblioteca do Pandas:
+### Passo 1: Download do Projeto
+Abra o terminal do VS Code e clone o projetos:
 
 ```bash
 # Clone o repositório

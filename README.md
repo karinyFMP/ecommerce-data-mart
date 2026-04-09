@@ -42,11 +42,35 @@ O processo de ETL (Extract, Transform, Load) foi orquestrado utilizando **Python
 
 Para garantir a reprodutibilidade deste projeto, siga o roteiro abaixo. Todo o processo foi desenhado para ser executado de forma simples no **VS Code**.
 
+
 ### 🛠️ Pré-requisitos
 Antes de começar, certifique-se de ter instalado em sua máquina:
 * **Python 3.8** ou superior.
 * **VS Code** com a extensão **SQLite** instalada (pesquise por `alexcvzz.vscode-sqlite` nas extensões).
 * **Power BI Desktop** (para visualizar o dashboard).
+
+###Estrutura de Pastas
+O código utiliza caminhos relativos (os.path.abspath), então a organização dos arquivos é fundamental. Certifique-se de que seu projeto siga este layout:
+```bash
+ecommerce-data-mart/
+├── bin/                     <-- Scripts executáveis ou auxiliares
+├── dashboards/              <-- Arquivos de visualização (ex: Power BI / E-Commerce.pbix)
+├── data/                    <-- Diretório central de dados
+│   ├── db/                  <-- Onde o banco SQLite (ecommerce.db) será criado
+│   ├── parquet/             <-- Onde os arquivos Parquet serão salvos
+│   └── raw/                 <-- Arquivos CSV originais brutos
+├── docs/                    <-- Documentações adicionais do projeto
+├── sql/                     <-- O Dump SQL (dump_ecommerce.sql) e outros scripts SQL ficam aqui
+├── src/                     <-- Código-fonte do pipeline ETL
+│   ├── extract.py
+│   ├── gerar_dump.py
+│   ├── load.py
+│   ├── pipeline.py
+│   └── transform.py
+├── .gitignore               <-- Arquivo de exclusão de versionamento do Git
+├── README.md                <-- Documentação principal do projeto
+└── requirements.txt         <-- Lista de dependências (ex: pandas, pyarrow)
+```
 
 ### Passo 1: Download do Projeto e Instalação de Dependências
 Abra o terminal do VS Code, clone o projeto e instale a biblioteca do Pandas:
@@ -59,15 +83,28 @@ git clone [https://github.com/karinyFMP/ecommerce-data-mart.git](https://github.
 cd ecommerce-data-mart
 
 # Instale as dependências necessárias
-pip install pandas
+pip install pandas pyarrow
 ```
 
 ### Passo 2: Executar o Pipeline (ETL)
 Com o terminal aberto na raiz do projeto, execute o script principal. Ele fará a leitura dos CSVs brutos, aplicará as regras de negócio e criará o banco de dados do zero.
+Para rodar o processo completo:
 
+1. Abra o terminal ou prompt de comando.
+
+2. Navegue até a pasta onde o arquivo está (ex: cd scripts).
+
+3. Execute o comando:
 ```bash
-python pipeline.py
+python src/pipeline.py
 ```
+O que acontece nesta etapa:
+
+- Extract: O script lê os 7 arquivos CSV da pasta data/raw.
+
+- Transform: O Pandas limpa os dados, mascara o CPF (LGPD), traduz datas para português e calcula métricas financeiras (frete rateado, descontos, etc.).
+
+- Load: Cria o banco ecommerce.db e exporta as tabelas finais para a pasta data/parquet.
 Se a execução for bem-sucedida, o arquivo ecommerce.db aparecerá na pasta do projeto.
 
 ### Passo 3: Validar os Dados no VS Code (Via Extensão)

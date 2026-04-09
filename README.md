@@ -81,9 +81,6 @@ git clone [https://github.com/karinyFMP/ecommerce-data-mart.git](https://github.
 
 # Acesse a pasta do projeto
 cd ecommerce-data-mart
-
-# Instale as dependências necessárias
-pip install pandas pyarrow
 ```
 
 ### Passo 2: Executar o Pipeline (ETL)

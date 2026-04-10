@@ -77,7 +77,7 @@ Abra o terminal do VS Code, clone o projetos e instale as dependências:
 
 ```bash
 # Clone o repositório
-git clone [https://github.com/karinyFMP/ecommerce-data-mart.git](https://github.com/karinyFMP/ecommerce-data-mart.git)
+git clone https://github.com/karinyFMP/ecommerce-data-mart.git
 
 # Acesse a pasta do projeto
 cd ecommerce-data-mart
@@ -90,14 +90,17 @@ pip install -r requirements.txt
 Com o terminal aberto na raiz do projeto, execute o script principal. Ele fará a leitura dos CSVs brutos, aplicará as regras de negócio e criará o banco de dados do zero.
 Para rodar o processo completo:
 
-1. Abra o terminal ou prompt de comando.
+**Opção 1: Pelo botão "Play" (Mais fácil no VS Code)**
+1. Na barra lateral esquerda, abra a pasta `src` e clique no arquivo `pipeline.py`.
+2. Com o arquivo aberto, clique no botão de **"Play" (Run Python File)**, localizado no canto superior direito da tela do seu editor.
 
-2. Navegue até a pasta onde o arquivo está (ex: cd scripts).
-
-3. Execute o comando:
+**Opção 2: Pelo Terminal (Linha de Comando)**
+1. Abra o terminal ou prompt de comando na raiz do projeto.
+2. Execute o seguinte comando:
 ```bash
 python src/pipeline.py
 ```
+
 O que acontece nesta etapa:
 
 - Extract: O script lê os 7 arquivos CSV da pasta data/raw.
@@ -121,14 +124,21 @@ Para provar que o banco foi populado corretamente sem sair do editor de código:
 5. Método Alternativo (Terminal CLI): Caso prefira validar usando comandos SQL via terminal Windows (PowerShell), aponte para o executável do SQLite informando o caminho do banco:
 ```bash
 PowerShell
-& "D:\Caminho\Para\Seu\sqlite3.exe" ecommerce.db
+& "D:\Caminho\Para\Seu\ecommerce-data-mart\bin\sqlite3.exe" ecommerce.db
 ```
 
 ### Passo 4: Restaurar o Banco de Dados via Dump (Backup)
 Caso ocorra algum problema na execução do Python e você deseje apenas testar as queries SQL, disponibilizamos um arquivo de Dump com os dados já populados:
 
+**Opção 1: Pelo botão "Play" (Mais fácil no VS Code)**
+1. Na barra lateral esquerda, abra a pasta `src` e clique no arquivo `gerar_dump.py`.
+2. Com o arquivo aberto, clique no botão de **"Play" (Run Python File)**, localizado no canto superior direito da tela do seu editor.
+
+**Opção 2: Pelo Terminal (Linha de Comando)**
+1. Abra o terminal ou prompt de comando na raiz do projeto.
+2. Execute o seguinte comando:
 ```bash
-sqlite3 novo_banco.db < dump_ecommerce.sql
+python src/gerar_dump.py
 ```
 
 ### 5. Perguntas de Negócio e Insights

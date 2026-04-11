@@ -6,7 +6,16 @@
 
 Este repositório contém o projeto final da disciplina de Banco de Dados/BI. Desenvolvemos um **Data Mart Dimensional completo** voltado para o setor de **E-commerce**, construindo um pipeline de dados que vai desde a extração de arquivos brutos (CSVs) até a visualização de insights em um dashboard interativo.
 
----
+
+## 👥 Equipe
+
+**Nome da Equipe:** ecommerce
+
+**Integrantes:**
+- Gabriel Alves de Oliveira
+- Kariny Ferreira de Melo Picolotto
+- Erika Francisca Augusto de Souza
+
 
 ## 📌 1. O Tema e Objetivo
 Escolhemos o tema de **E-commerce** devido à sua riqueza em variáveis de análise. O objetivo principal deste Data Mart é permitir que gestores compreendam o comportamento de compras, a eficiência logística (prazos e fretes), a distribuição geográfica da receita e a performance do catálogo de produtos.
